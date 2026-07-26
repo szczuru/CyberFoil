@@ -83,7 +83,7 @@ jobs:
           fi
 
           {
-            echo "## Build Summary"
+            echo "## Buuild Summary"
             echo "- Commit: ${GITHUB_SHA}"
             echo "- Runner: $(uname -a)"
             echo "- Duration: ${duration}s"
